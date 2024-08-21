@@ -40,6 +40,24 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media () {
-    
+/* MY SCRREN LOSES RESPONSIVENESS @ 688px AND HERE,
+I SAY WHEN IT GETS TO SAID PX, RESIZE MY HEADER TITLE, LINKS AND BUTTON.
+RESULT; INSTEAD OF IT BREAKING, IT SHRINKS TO CONTAIN SAID PX. */
+
+@media (max-width: 688px) {
+    .header_title p{
+        font-size: 25px;
+    }
+
+    .header_links {
+        font-size: 14px;
+    }
+
+    .header_btn .btn {
+        font-size: 14px;
+    }
 }
+
+/* PREDEFNING MEDIA QUEIRES FOR ALL SCREEN SIZES {DESKTOP FIRST APPROACH} 
+FOR MOBILE FIRST APPROACH, IT WILL BE "MIN-WIDTH"*/
+
