@@ -53,13 +53,13 @@ svg {
     user-select: none;
 }
 
-.btn {
+button {
     display: inline-block;
     padding: 0;
     border: none;
     background: none;
     cursor: pointer;
-    color: inherit; /* inherited from the parent. parent = body*/
+    /* color: inherit; inherited from the parent. parent = body */
 }
 
 a {
