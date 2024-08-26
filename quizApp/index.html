@@ -24,22 +24,22 @@
    <!-- Info Box -->
    <div class="info_box global">
      <div class="info_title">
-       <span>Some Rules of this Quiz</span>
+       <span>Read the instructions below carefully</span>
      </div>
      <div class="info_list">
        <div class="info">
-         1. You will have only <span class="info_time">20 seconds</span> per
+         1. You have only <span class="info_time">20 seconds</span> per
          question.
        </div>
-       <div class="info">2. Once you select answer, you can't reselect.</div>
+       <div class="info">2. Correct responses are rewarded with points.</div>
        <div class="info">
          3. You can't select any option once time goes off.
        </div>
        <div class="info">
-         4. You can't exit from the Quiz while you're playing.
+         4. Once the quiz begins, you must complete it; exiting is prohibited.
        </div>
        <div class="info">
-         5. You'll get points on the basis of your correct answers.
+         5. You can't change your answer after picking one.
        </div>
      </div>
      <div class="buttons">
@@ -47,6 +47,80 @@
        <button class="restart check">Continue</button>
      </div>
    </div>
+
+   <!-- Quiz Box -->
+   <div class="quiz_box global">
+    <header>
+      <div class="title">Javascript Quiz</div>
+      <div class="timer">
+        <div class="timer_text">Time Left</div>
+        <div class="timer_sec">15</div>
+      </div>
+    </header>
+    <div class="timer_bar"></div>
+
+    <section>
+      <div class="que_text">
+        <span>What does HTML stand for?</span>
+      </div>
+      <div class="option_list">
+        <div class="option">
+          <span>Hyper Text Markup Language</span>
+          <div class="icon tick">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="option">
+          <span>Hyper Text Preprocessor</span>
+          <div class="icon cross">
+            <ion-icon name="close-circle"></ion-icon>
+          </div>
+        </div>
+
+        <div class="option">
+          <span>Hyper Text Multi Language</span>
+        </div>
+
+        <div class="option">
+          <span>Hyper Tool Multi Language</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Box Footer -->
+    <footer>
+      <div class="total_que">
+        <span
+          ><p class="currentNo">2</p>
+          of
+          <p class="totalNo">5</p>
+          Questions</span
+        >
+      </div>
+      <button class="next_btn">Next</button>
+    </footer>
+  </div>
+
+  <!-- Result Box -->
+  <div class="result_box global">
+    <div class="icon">
+      <!-- crown -->
+      <ion-icon name="trophy" class="icon result--icon"></ion-icon>
+    </div>
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+      <span
+        >and sorry, you got only
+        <p class="score">2</p>
+        out of
+        <p class="totalQuestion">5</p></span
+      >
+    </div>
+    <div class="buttons">
+      <button class="restart check">Replay</button>
+      <button class="quit check">Quit</button>
+    </div>
+  </div>
 
    <script type="module" src="script.js"></script>
  </body>
