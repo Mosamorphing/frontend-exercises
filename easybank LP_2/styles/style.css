@@ -4,6 +4,7 @@
     --clr-light: #fafafa;
     --clr-green: #30C88F;
     --clr-grey: #979797;
+    --clr-header: #9597A5;
 
 
     /* sizes */
@@ -59,7 +60,7 @@ button {
     cursor: pointer;
 }
 
-a {
+/* a {
     color: var(--clr-green);
-}
+} */
 
