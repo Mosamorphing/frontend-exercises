@@ -5,3 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="style.css" />
+
+     <!-- ICONS -->
+     <script
+     type="module"
+     src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+   ></script>
+   <script
+     nomodule=""
+     src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+   ></script>
+ </head>
+ <body>
+  
+   <!-- start quizz Button -->
+   <div class="start_btn global"><button>Start Quiz</button></div>
+
+   <!-- Info Box -->
+   <div class="info_box global">
+     <div class="info_title">
+       <span>Some Rules of this Quiz</span>
+     </div>
+     <div class="info_list">
+       <div class="info">
+         1. You will have only <span class="info_time">20 seconds</span> per
+         question.
+       </div>
+       <div class="info">2. Once you select answer, you can't reselect.</div>
+       <div class="info">
+         3. You can't select any option once time goes off.
+       </div>
+       <div class="info">
+         4. You can't exit from the Quiz while you're playing.
+       </div>
+       <div class="info">
+         5. You'll get points on the basis of your correct answers.
+       </div>
+     </div>
+     <div class="buttons">
+       <button class="quit check">Exit Quiz</button>
+       <button class="restart check">Continue</button>
+     </div>
+   </div>
+
+   <script type="module" src="script.js"></script>
+ </body>
+</html>
