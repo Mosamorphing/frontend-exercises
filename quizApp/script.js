@@ -62,7 +62,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 // Timer
-let timeLeft  = 15;
+let timeLeft  = 20;
 let timerInterval;
 // Start Button
 
@@ -152,7 +152,7 @@ function showQuestion(){
 // Timer Function
 // Timer Function
 function startTimer() {
-    let timeLeft = 15;  
+    let timeLeft = 20;  
     const timerElement = document.querySelector(".timer_sec");
     const timerBar = document.querySelector(".timer_bar");
     timerElement.textContent = timeLeft;
