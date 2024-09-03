@@ -1,0 +1,14 @@
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--marine-blue);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: hsl(213, 72%, 31%);
+}
